@@ -1,0 +1,9 @@
+colores:
+negro: #000000
+blanco: #fff
+verde manzana: #97C714
+verde oscuro: #648018
+naranja oscuro: #805A39
+naranja claro: #FFB371
+otro verde: #5E6E32
+

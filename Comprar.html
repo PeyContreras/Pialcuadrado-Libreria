@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hace tu pedido en libreria Pialcuadrado. Productos de libreria comercial, escolar, arte, cotillon y mucho más.">
+    <meta name="keywords"
+        content="comprar articulos de libreria, comprar lista escolar, libreria, comprar, hacer pedido en libreria">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/8741abc5f7.js" crossorigin="anonymous"></script>
+    <title>Comprar-Pialcuadrado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</html>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="nav">
+            <a href="index.html" class="logo nav-link"><img src="images/LogoPiPNG.png" alt="Pialcuadrado Libreria"
+                    class="logo"></a>
+
+            <div class="nav">
+                <input type="text" placeholder="Buscar" required class="buscar">
+            </div>
+
+            <label for="menu" class="nav-label">
+                <img src="images/menuPNG.png" alt="logo menu" class="nav-img">
+            </label>
+            <input type="checkbox" id="menu" class="nav-input">
+
+
+
+            <div class="nav-menu">
+                <a href="Productos.html" class="nav-menu-link">Productos</a>
+                <a href="Nosotros.html" class="nav-menu-link">Nosotros</a>
+                <a href="#Contacto" class="nav-menu-link">Contacto</a>
+                <a href="#Ubicacion" class="nav-menu-link">Ubicacion</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="titulo-pedido">
+            <h1>Como armo mi pedido?</h1>
+            <h2>Para realizar un pedido tenes dos opciones</h2>
+        </div>
+        <div class="pedido">
+            <div class="paso1">
+                <h2>Paso 1</h2>
+                <h3>Primero te pedimos que nos des tu nombre y un número de telefono para poder hacerte cualquier consulta que tengamos</h3>
+                <h4>Nombre</h3><input type="text" class="boton">
+                <h4>Teléfono</h3><input type="tel" class="boton">
+                <h2>Completa aqui debajo el pedido, aclarando cantidades y descripcion (colores, tamaños y cantidades) de cada producto</h3>
+                <textarea name="Pedido" id=""></textarea>
+                <a href="gracias.html"><input type="submit" value="Hacer pedido!" class="boton-final"></a>
+            </div>
+            <div class="paso2">
+                <h2>Paso 2</h2>
+                <h3>Ahora te pedimos que revises tu whatsapp</h3>
+                <p>Dentro de los 15 minutos proximos al pedido hecho te llegara un mensaje para confirmar stock y dudas de tu pedido</p>
+                <h3>Para pagar tu pedido de manera online te pedimos que llenes el proximo formulario</h3>
+                <h4>Nombre</h3><input type="text" class="boton">
+                <h4>Tarjeta</h3><input type="text" class="boton">
+                <h4>Numero de tarjeta</h3><input type="tel" class="boton">
+                <h4>Numero de seguridad</h3><input type="tel" class="boton">
+                <h4>Email</h4><input type="email" class="boton">
+                <a href="gracias.html"><input type="submit" value="PAGAR" class="boton-final"></a>
+            </div>
+        </div>
+        <div class="envios">
+            <h1>Necesitas que lo enviemos a tu casa?</h1>
+            <h2>Aca te dejamos precios de los envios dependiendo zona</h2>
+            <h3>Zona 1</h3>
+            <p>CABA y Zona Norte --> $100 el envio</p>
+            <h3>Zona 2</h3>
+            <p>GBA primer cordón --> $200 el envio</p>
+            <h3>Zona 3</h3>
+            <p>GBA segundo cordón --> $350 el envio</p>
+            <h3>Resto de Bs.As u otras provincias</h3>
+            <p>Cotizamos tu pedido manualmente a través de Andreani o Pudo una vez realizado el pedido.</p>
+            <img src="images/Mapa-Envios-PNG.png" alt="Mapa para envios buenos aires">
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="datos" id="Contacto">
+                <h2>Redes Sociales</h2>
+                <p><a href="https://m.facebook.com/pialcuadradolibreria/?locale2=es_LA" target="blank"><img
+                            src="images/FacebookLogo PNG.png" alt="logo facebook"></a></p>
+                <p><a href="https://www.instagram.com/pialcuadradolibreria/" target="blank"><img
+                            src="images/LogoInstagramPNG.png" alt="logo instagram" target="blank"></a></p>
+                <p><a href="https://wa.link/pvrvsr" target="blank"><img src="images/LogoWpp.png"
+                            alt="logo whatsapp"></a></p>
+            </div>
+
+            <div class="datos">
+                <h2>Medios de pago</h2>
+                <img src="images/MediosDePago.jpg" alt="medios de pago" class="img">
+            </div>
+
+            <div class="datos" id="Ubicacion">
+                <h2>Donde estamos ubicados?</h2>
+                <h3>Don Bosco 302, San Isidro</h3>
+                <a href="https://www.google.com.ar/maps/place/Librer%C3%ADa+P%C3%AD+al+cuadrado/@-34.4706016,-58.5236936,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb03a1255aef7:0xccc1f4b19a40ee3e!8m2!3d-34.4706013!4d-58.5215083?hl=es"
+                    target="blank"><input type="button" value="Ver en mapa" class="boton"></a>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
